@@ -141,6 +141,6 @@ This project demonstrates the effectiveness of different machine learning models
 ## Author
   Anusha N - Data Analyst Enthusiast
 
-📌 **GitHub Repository**: [Breast Cancer classification](https://github.com/anusha-n-16/Cancer-classifier.git)
+📌 **GitHub Repository**: https://github.com/anusha-n-16/Cancer-classifier.git
 
 
