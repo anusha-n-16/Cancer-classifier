@@ -1,75 +1,75 @@
 
 # Breast Cancer Classification
 
-📌 Overview
+📌 **Overview**
 
 This project focuses on classifying breast cancer tumors as Benign (B) or Malignant (M) using machine learning models. The dataset used is the Wisconsin Breast Cancer Dataset (WBCD), which contains 569 instances and 32 features describing various characteristics of cell nuclei present in breast cancer biopsies.
 
-📊 Dataset Description
+📊 **Dataset Description**
 
 The dataset consists of 30 numerical features, an ID column (removed during preprocessing), and a diagnosis label (B/M).
 
-🔹 Features:
+🔹 **Features**:
 
-Mean Features: Mean values of tumor characteristics.
+- Mean Features: Mean values of tumor characteristics.
 
-Standard Error Features: Measures variability in tumor characteristics.
+- Standard Error Features: Measures variability in tumor characteristics.
 
-Worst Features: Maximum values observed for each characteristic.
+- Worst Features: Maximum values observed for each characteristic.
 
-🔹 Target Variable:
+🔹 **Target Variable**:
 
-Diagnosis: The outcome variable, where:
+- Diagnosis: The outcome variable, where:
 
-B (Benign) = 0
+- B (Benign) = 0
 
-M (Malignant) = 1
+- M (Malignant) = 1
 
-🔹 Class Distribution:
+🔹** Class Distribution**:
 
-Benign (B): 357 cases (~62.7%)
+- Benign (B): 357 cases (~62.7%)
 
-Malignant (M): 212 cases (~37.3%)
+- Malignant (M): 212 cases (~37.3%)
 
-The dataset is slightly imbalanced, which is addressed using SMOTE (Synthetic Minority Over-sampling Technique).
+- The dataset is slightly imbalanced, which is addressed using SMOTE (Synthetic Minority Over-sampling Technique).
 
-🛠 Data Preprocessing
+🛠 **Data Preprocessing**
 
-Dropped 'ID' column (not useful for classification).
+- Dropped 'ID' column (not useful for classification).
 
-Checked for missing values (none found).
+- Checked for missing values (none found).
 
-Encoded the target variable (B → 0, M → 1).
+- Encoded the target variable (B → 0, M → 1).
 
-Standardized features using StandardScaler.
+- Standardized features using StandardScaler.
 
-Handled class imbalance using SMOTE.
+- Handled class imbalance using SMOTE.
 
-🤖 Models Used
+🤖 **Models Used**
 
-The following machine learning models were implemented and evaluated:
+- The following machine learning models were implemented and evaluated:
 
-Random Forest
+- Random Forest
 
-Logistic Regression
+- Logistic Regression
 
-Support Vector Machine (SVM)
+- Support Vector Machine (SVM)
 
-XGBoost
+- XGBoost
 
-📈 Model Evaluation Metrics:
+📈 **Model Evaluation Metrics**:
 
-Accuracy
+- Accuracy
 
-Precision & Recall
+- Precision & Recall
 
-F1-score
+- F1-score
 
-ROC-AUC Score
+- ROC-AUC Score
 
-📊 Results
+📊 **Results**
 
-Here’s the model performance in a clean table format:  
+- Here’s the model performance in a clean table format:  
 
 | Model               | Accuracy | Precision | Recall  | F1-Score | AUC-ROC |
 |---------------------|----------|-----------|-------- |----------|---------|
@@ -78,38 +78,38 @@ Here’s the model performance in a clean table format:
 | SVM                 | 97.37%   | 97.56%    | 95.24%  | 96.39%   | 99.54%  |
 | XGBoost             | 97.37%   | 100.00%   | 92.86%  | 96.30%   | 99.44%  |
 
-🚀 How to Run the Project
+🚀 **How to Run the Project**
 
-🔧 Prerequisites:
+🔧 **Prerequisites**:
 
-Ensure you have Python installed along with the required libraries:
+- Ensure you have Python installed along with the required libraries:
 
-pip install numpy pandas scikit-learn xgboost imbalanced-learn matplotlib seaborn
+- pip install numpy pandas scikit-learn xgboost imbalanced-learn matplotlib seaborn
 
-🔹 Steps to Run:
+🔹 **Steps to Run**:
 
-1. Clone the Repository
+1. **Clone the Repository**
 
 git clone https://github.com/anusha-n-16/Cancer-classifier.git
 cd cancer-classifier
 
-2. Open the Jupyter Notebook
+2. **Open the Jupyter Notebook**
 
 jupyter notebook
 
 Then, navigate to breast_cancer_classification.ipynb and run the cells sequentially.
 
-3. View Results
+3. **View Results**
 
 Model performance metrics such as accuracy, precision, recall, F1-score, and AUC-ROC will be displayed.
 
 Confusion matrices and ROC curves will be generated for better visualization of model effectiveness.
 
-🏆 Conclusion
+🏆 **Conclusion**
 
 This project demonstrates the effectiveness of different machine learning models in diagnosing breast cancer. XGBoost and Random Forest provided the best performance in terms of accuracy and recall, making them ideal choices for this task.
 
-🔹 Key Takeaways:
+🔹 **Key Takeaways**:
 
 Random Forest and XGBoost emerged as the best-performing models.
 
@@ -117,7 +117,7 @@ High recall models are preferable in medical diagnosis to minimize false negativ
 
 Hyperparameter tuning and feature selection could further enhance model performance.
 
-🔍 Future Work:
+🔍 **Future Work**:
 
 Optimization through hyperparameter tuning to improve accuracy and generalization.
 
@@ -127,7 +127,7 @@ Integration with a web-based or mobile application to make predictions accessibl
 
 This project highlights the potential of machine learning in healthcare and how predictive models can support early and accurate breast cancer detection, ultimately aiding in better patient outcomes.
 
-📢 Acknowledgments
+📢 **Acknowledgments**
 
 **Dataset Source**:
 
