@@ -91,6 +91,7 @@ Ensure you have Python installed along with the required libraries:
 1. **Clone the Repository**
 
 git clone https://github.com/anusha-n-16/Cancer-classifier.git
+
 cd cancer-classifier
 
 2. **Open the Jupyter Notebook**
@@ -111,11 +112,11 @@ This project demonstrates the effectiveness of different machine learning models
 
 🔹 **Key Takeaways**:
 
-Random Forest and XGBoost emerged as the best-performing models.
+- Random Forest and XGBoost emerged as the best-performing models.
 
-High recall models are preferable in medical diagnosis to minimize false negatives.
+- High recall models are preferable in medical diagnosis to minimize false negatives.
 
-Hyperparameter tuning and feature selection could further enhance model performance.
+- Hyperparameter tuning and feature selection could further enhance model performance.
 
 🔍 **Future Work**:
 
