@@ -82,7 +82,7 @@ Here’s the model performance in a clean table format:
 
 🔧 **Prerequisites**:
 
-Ensure you have Python installed along with the required libraries:
+  Ensure you have Python installed along with the required libraries:
 
 - pip install numpy pandas scikit-learn xgboost imbalanced-learn matplotlib seaborn
 
@@ -90,25 +90,26 @@ Ensure you have Python installed along with the required libraries:
 
 1. **Clone the Repository**
 
-git clone https://github.com/anusha-n-16/Cancer-classifier.git
+    git clone https://github.com/anusha-n-16/Cancer-classifier.git
 
-cd cancer-classifier
+    cd cancer-classifier
 
 2. **Open the Jupyter Notebook**
 
-jupyter notebook
+    jupyter notebook
 
-Then, navigate to breast_cancer_classification.ipynb and run the cells sequentially.
+    Then, navigate to Breast_Cancer_classification.ipynb and run the cells sequentially.
 
 3. **View Results**
 
-Model performance metrics such as accuracy, precision, recall, F1-score, and AUC-ROC will be displayed.
+    Model performance metrics such as accuracy, precision, recall, F1-score, and AUC-ROC will be displayed.
 
-Confusion matrices and ROC curves will be generated for better visualization of model effectiveness.
+    Confusion matrices and ROC curves will be generated for better visualization of model effectiveness.
 
 🏆 **Conclusion**
 
-This project demonstrates the effectiveness of different machine learning models in diagnosing breast cancer. XGBoost and Random Forest provided the best performance in terms of accuracy and recall, making them ideal choices for this task.
+    This project demonstrates the effectiveness of different machine learning models in diagnosing breast cancer.
+    XGBoost and Random Forest provided the best performance in terms of accuracy and recall, making them ideal choices for this task.
 
 🔹 **Key Takeaways**:
 
@@ -126,21 +127,21 @@ This project demonstrates the effectiveness of different machine learning models
 
 - Integration with a web-based or mobile application to make predictions accessible to users.
 
-This project highlights the potential of machine learning in healthcare and how predictive models can support early and accurate breast cancer detection, ultimately aiding in better patient outcomes.
+  This project highlights the potential of machine learning in healthcare and how predictive models can support early and accurate breast cancer detection, ultimately aiding in better patient outcomes.
 
 📢 **Acknowledgments**
 
 **Dataset Source**:
 
-UCI Machine Learning Repository: Breast Cancer Wisconsin (Diagnostic) Data Set
+  UCI Machine Learning Repository: Breast Cancer Wisconsin (Diagnostic) Data Set
 
-Scikit-Learn Built-in Dataset: Breast Cancer Dataset
+  Scikit-Learn Built-in Dataset: Breast Cancer Dataset
 
-Libraries Used: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Imbalanced-learn, XGBoost 
+  Libraries Used: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Imbalanced-learn, XGBoost 
 
 ## Author
-Anusha N - Data Analyst Enthusiast
+  Anusha N - Data Analyst Enthusiast
 
-📌 **GitHub Repository**: [Breast Cancer Classification](https://github.com/anusha-n-16/Cancer-classifier.git)
+📌 **GitHub Repository**: [Breast Cancer classification](https://github.com/anusha-n-16/Cancer-classifier.git)
 
 
