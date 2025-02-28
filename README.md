@@ -25,7 +25,7 @@ The dataset consists of 30 numerical features, an ID column (removed during prep
 
 - M (Malignant) = 1
 
-🔹** Class Distribution**:
+🔹**Class Distribution**:
 
 - Benign (B): 357 cases (~62.7%)
 
@@ -47,7 +47,7 @@ The dataset consists of 30 numerical features, an ID column (removed during prep
 
 🤖 **Models Used**
 
-- The following machine learning models were implemented and evaluated:
+The following machine learning models were implemented and evaluated:
 
 - Random Forest
 
@@ -69,7 +69,7 @@ The dataset consists of 30 numerical features, an ID column (removed during prep
 
 📊 **Results**
 
-- Here’s the model performance in a clean table format:  
+Here’s the model performance in a clean table format:  
 
 | Model               | Accuracy | Precision | Recall  | F1-Score | AUC-ROC |
 |---------------------|----------|-----------|-------- |----------|---------|
@@ -82,7 +82,7 @@ The dataset consists of 30 numerical features, an ID column (removed during prep
 
 🔧 **Prerequisites**:
 
-- Ensure you have Python installed along with the required libraries:
+Ensure you have Python installed along with the required libraries:
 
 - pip install numpy pandas scikit-learn xgboost imbalanced-learn matplotlib seaborn
 
@@ -119,11 +119,11 @@ Hyperparameter tuning and feature selection could further enhance model performa
 
 🔍 **Future Work**:
 
-Optimization through hyperparameter tuning to improve accuracy and generalization.
+- Optimization through hyperparameter tuning to improve accuracy and generalization.
 
-Explainability techniques such as SHAP or LIME to understand feature importance.
+- Explainability techniques such as SHAP or LIME to understand feature importance.
 
-Integration with a web-based or mobile application to make predictions accessible to users.
+- Integration with a web-based or mobile application to make predictions accessible to users.
 
 This project highlights the potential of machine learning in healthcare and how predictive models can support early and accurate breast cancer detection, ultimately aiding in better patient outcomes.
 
