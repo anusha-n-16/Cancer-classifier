@@ -108,7 +108,7 @@ Here’s the model performance in a clean table format:
 
 🏆 **Conclusion**
 
-    This project demonstrates the effectiveness of different machine learning models in diagnosing breast cancer.XGBoost and Random Forest provided the best performance in terms of accuracy and recall, making them ideal choices for this task.
+This project demonstrates the effectiveness of different machine learning models in diagnosing breast cancer.XGBoost and Random Forest provided the best performance in terms of accuracy and recall, making them ideal choices for this task.
 
 🔹 **Key Takeaways**:
 
